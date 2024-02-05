@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+#wrapper{
+    max-width: 100%;
+    height: 100%;
+    background-color: rgb(159, 158, 158);
+}
+
+nav{
+    height: 60px;
+    display: flex;
+    background-color: #fff;
+    padding: 0 20px;
+    gap: 60px;
+    align-items: center;
+}
+.left{
+    width: 30%;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.logo >  img{
+    width: 100%;
+    height: 100%;
+}
+.search{
+    padding: 10px 10px;
+    height: 40px;
+    background-color: rgb(181, 175, 175);
+    border-radius: 20px;
+}
+
+.search > input{
+    border: none;
+    background-color: transparent;
+}
+
+.search > i{
+    color: gray;
+}
+
+.center{
+    width: 40%;
+    min-height: 100%;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    margin-right: 30px;
+    
+}
+.home{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.2s ease-in;
+   
+
+}
+.home > i{
+padding-left: 20px;
+
+}
+.home:hover i{
+    color: blue;
+    transition: 0.2s ease-in;
+}
+.home:hover  div{
+    width: 80%;
+    border: 1px solid blue;
+    transition: 0.2s ease-in;
+}
+
+.monitor{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.2s ease-in;
+   
+
+}
+.monitor > i{
+padding-left: 20px;
+
+}
+.monitor:hover i{
+    color: blue;
+    transition: 0.2s ease-in;
+}
+.monitor:hover  div{
+    width: 80%;
+    border: 1px solid blue;
+    transition: 0.2s ease-in;
+}
+
+.shop{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.2s ease-in;
+   
+
+}
+.shop > i{
+padding-left: 20px;
+
+}
+.shop:hover i{
+    color: blue;
+    transition: 0.2s ease-in;
+}
+.shop:hover  div{
+    width: 80%;
+    border: 1px solid blue;
+    transition: 0.2s ease-in;
+}
+.contact{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.2s ease-in;
+   
+
+}
+.contact > i{
+padding-left: 20px;
+
+}
+.contact:hover i{
+    color: blue;
+    transition: 0.2s ease-in;
+}
+.contact:hover  div{
+    width: 80%;
+    border: 1px solid blue;
+    transition: 0.2s ease-in;
+}
+.games{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.2s ease-in;
+   
+
+}
+.games > i{
+padding-left: 20px;
+
+
+}
+.games:hover i{
+    color: blue;
+    transition: 0.2s ease-in;
+}
+.games:hover  div{
+    width: 80%;
+    border: 1px solid blue;
+    transition: 0.2s ease-in;
+}
+.right{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    
+}
+.right > div{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.right > img{
+    height: 30px;
+    width: 30px;
+}
